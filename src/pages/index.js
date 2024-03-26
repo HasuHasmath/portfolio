@@ -8,6 +8,16 @@ import {
 } from "react-icons/ai";
 
 import code from "../../public/code.png";
+import design from "../../public/design.png";
+import consulting from "../../public/consulting.png";
+import web1 from "../../public/web1.png";
+import web2 from "../../public/web2.png";
+import web3 from "../../public/web3.png";
+import web4 from "../../public/web4.png";
+import web5 from "../../public/web5.png";
+
+
+
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -27,7 +37,7 @@ export default function Home() {
           <div className="text-center p-10">
             <h2 className="text-5xl py-5 text-teal-500">Mohamed Hasmath</h2>
             <h3 className="text-2xl py-5">Software Engineer</h3>
-            <p className="text-md py5 text-gray-500 font-medium leading-7">
+            <p className="text-md py5 text-gray-500 font-medium">
               As a seasoned software engineer, I am dedicated to crafting
               innovative solutions that meet the complex challenges of modern
               software development. With a solid foundation in computer science
@@ -75,21 +85,78 @@ export default function Home() {
             </p>
           </div>
           <div>
-            <div>
-              <Image src={code} />
-              <h3>Coding Language</h3>
-              <p>
+            <div className="text-center shadow-lg p-10 rounder-xl my-10">
+              <Image className="m-auto" src={code} />
+              <h3 className="text-lf font-md ">Coding Language</h3>
+              <p className="py-4 leading-6">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro,
                 debitis deserunt, fuga adipisci explicabo recusandae in impedit
                 fugit ea repudiandae id maxime atque sequi delectus dolorem.
                 Ipsa consequatur ut impedit sequi iusto libero laudantium nulla
                 cupiditate, voluptate, quas fugiat qui! Veritatis culpa aliquam.
-                
               </p>
               <h4>The Tools I Used</h4>
               <p>Context</p>
               <p>Hooks</p>
               <p>Stage management</p>
+            </div>
+            <div className="text-center shadow-lg p-10 rounder-xl my-10">
+              <Image className="m-auto" src={design} />
+              <h3 className="text-lf font-md ">Coding Language</h3>
+              <p className="py-4 leading-6">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro,
+                debitis deserunt, fuga adipisci explicabo recusandae in impedit
+                fugit ea repudiandae id maxime atque sequi delectus dolorem.
+                Ipsa consequatur ut impedit sequi iusto libero laudantium nulla
+                cupiditate, voluptate, quas fugiat qui! Veritatis culpa aliquam.
+              </p>
+              <h4>The Tools I Used</h4>
+              <p>Context</p>
+              <p>Hooks</p>
+              <p>Stage management</p>
+            </div>
+            <div className="text-center shadow-lg p-10 rounder-xl my-10">
+              <Image className="m-auto" src={consulting} />
+              <h3 className="text-lf font-md ">Coding Language</h3>
+              <p className="py-4 leading-6">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro,
+                debitis deserunt, fuga adipisci explicabo recusandae in impedit
+                fugit ea repudiandae id maxime atque sequi delectus dolorem.
+                Ipsa consequatur ut impedit sequi iusto libero laudantium nulla
+                cupiditate, voluptate, quas fugiat qui! Veritatis culpa aliquam.
+              </p>
+              <h4>The Tools I Used</h4>
+              <p>Context</p>
+              <p>Hooks</p>
+              <p>Stage management</p>
+            </div>
+          </div>
+        </section>
+        <section>
+          <h3 className="text-3xl py-1">Portfolio</h3>
+          <p className="text-md py-2 leading-8">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic ab
+            saepe libero expedita repellat ratione impedit accusamus aliquid
+            debitis modi, incidunt, enim repellendus autem! Excepturi, beatae
+            molestias expedita quibusdam sint reprehenderit ab, saepe distinctio
+            culpa sunt quo? Porro delectus dignissimos nobis qui explicabo.
+            Soluta et molestias, inventore placeat culpa aspernatur?
+          </p>
+          <div className="flex flex-col gap-16">
+            <div className="basis-1/3 flex-1">
+              <Image src={web1} />
+            </div>
+            <div className="basis-1/3 flex-1">
+              <Image src={web2} />
+            </div>
+            <div className="basis-1/3 flex-1">
+              <Image src={web3} />
+            </div>
+            <div className="basis-1/3 flex-1">
+              <Image src={web4} />
+            </div>
+            <div className="basis-1/3 flex-1">
+              <Image src={web5} />
             </div>
           </div>
         </section>
