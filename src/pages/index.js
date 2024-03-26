@@ -7,7 +7,7 @@ import {
   AiFillYoutube,
 } from "react-icons/ai";
 
-import { AiFillMoon } from "react-icons";
+import code from "../../public/code.png";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -72,10 +72,26 @@ export default function Home() {
               explicabo commodi aperiam! Aspernatur adipisci minima totam
               ratione reiciendis cum corrupti asperiores iste excepturi! Modi
               eligendi dolores velit sequi, rerum cupiditate quas beatae
-              
             </p>
           </div>
-          <div></div>
+          <div>
+            <div>
+              <Image src={code} />
+              <h3>Coding Language</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro,
+                debitis deserunt, fuga adipisci explicabo recusandae in impedit
+                fugit ea repudiandae id maxime atque sequi delectus dolorem.
+                Ipsa consequatur ut impedit sequi iusto libero laudantium nulla
+                cupiditate, voluptate, quas fugiat qui! Veritatis culpa aliquam.
+                
+              </p>
+              <h4>The Tools I Used</h4>
+              <p>Context</p>
+              <p>Hooks</p>
+              <p>Stage management</p>
+            </div>
+          </div>
         </section>
       </main>
     </>
