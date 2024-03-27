@@ -6,7 +6,6 @@ import {
   AiFillLinkedin,
   AiFillYoutube,
 } from "react-icons/ai";
-
 import code from "../../public/code.png";
 import design from "../../public/design.png";
 import consulting from "../../public/consulting.png";
@@ -16,9 +15,6 @@ import web3 from "../../public/web3.png";
 import web4 from "../../public/web4.png";
 import web5 from "../../public/web5.png";
 import dev from "../../public/dev.png";
-
-
-
 
 const inter = Inter({ subsets: ["latin"] });
 
