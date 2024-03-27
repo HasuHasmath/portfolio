@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Inter } from "next/font/google";
-
+import { useState } from "react";
 import {
   AiFillTwitterCircle,
   AiFillLinkedin,
@@ -23,9 +23,10 @@ import dev from "../../public/dev.png";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
+  const [isDark, setDark] = useState(false);
   return (
-    <>
-      <main className="bg-white px-10 md:px-20 lg:px-100">
+    <div className={isDark ? 'dark' : ''}>
+      <main className="bg-white px-10 md:px-20 lg:px-40 dark:bg-black">
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between">
             <h1 className="text-3xl font-burtons md:text-3xl lg:text-5xl">Hasmath</h1>
@@ -148,7 +149,7 @@ export default function Home() {
             culpa sunt quo? Porro delectus dignissimos nobis qui explicabo.
             Soluta et molestias, inventore placeat culpa aspernatur?
           </p>
-          <div className="flex flex-col gap-16">
+          <div className="flex flex-col gap-16 lg:flex-wrap lg:flex-row">
             <div className="basis-1/3 flex-1">
               <Image src={web1} />
             </div>
@@ -167,6 +168,6 @@ export default function Home() {
           </div>
         </section>
       </main>
-    </>
+    </div>
   );
 }
