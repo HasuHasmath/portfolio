@@ -38,6 +38,10 @@ export default function Home() {
           </nav>
           <div className="text-center p-10">
             <h2 className="text-5xl py-5 text-teal-500">Mohamed Hasmath</h2>
+            <div className="w-60 h-60 rounded-full bg-blue-300 mx-auto relative mt-20 pt-5">
+              <Image src={dev} />
+            </div>
+
             <h3 className="text-2xl py-5">Software Engineer</h3>
             <p className="text-md py5 text-gray-500 font-medium">
               As a seasoned software engineer, I am dedicated to crafting
@@ -55,10 +59,6 @@ export default function Home() {
             <AiFillTwitterCircle />
             <AiFillYoutube />
           </div>
-          <div className="w-60 h-60 rounded-full bg-blue-300 mx-auto relative mt-20 pt-5">
-            <Image src={dev}/>
-          </div>
-
         </section>
         <section>
           <div>
