@@ -25,10 +25,10 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
     <>
-      <main className="bg-white px-10">
+      <main className="bg-white px-10 md:px-20 lg:px-100">
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between">
-            <h1 className="text-3xl font-burtons">Hasmath</h1>
+            <h1 className="text-3xl font-burtons md:text-3xl lg:text-5xl">Hasmath</h1>
             <ul className="flex justify-between gap-10">
               <li className="hover:text-red-500 cursor-pointer">Night Mode</li>
               <li className="text-xl text-blue-700 hover:text-green-600 cursor-pointer">
@@ -90,7 +90,7 @@ export default function Home() {
               eligendi dolores velit sequi, rerum cupiditate quas beatae
             </p>
           </div>
-          <div>
+          <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounder-xl my-10">
               <Image className="m-auto" src={code} />
               <h3 className="text-lf font-md ">Coding Language</h3>
