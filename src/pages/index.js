@@ -15,6 +15,8 @@ import web2 from "../../public/web2.png";
 import web3 from "../../public/web3.png";
 import web4 from "../../public/web4.png";
 import web5 from "../../public/web5.png";
+import dev from "../../public/dev.png";
+
 
 
 
@@ -53,6 +55,10 @@ export default function Home() {
             <AiFillTwitterCircle />
             <AiFillYoutube />
           </div>
+          <div className="w-60 h-60 rounded-full bg-blue-300 mx-auto relative mt-20 pt-5">
+            <Image src={dev}/>
+          </div>
+
         </section>
         <section>
           <div>
